@@ -14,6 +14,18 @@ else
 	PRODUCT_PROPERTY_OVERRIDES += \
 		ro.aokp.version=$(TARGET_PRODUCT)_unofficial_$(DATE)
 endif
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.aokp.version=$(TARGET_PRODUCT)_jb-build-1
+
+# If you change that, go change backupscript too
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.aokp.majorversion=jb1
+
+# Goo updater app
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=aokp \
+    ro.goo.rom=aokp \
+    ro.goo.version=21
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
