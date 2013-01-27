@@ -12,5 +12,6 @@ add_lunch_combo aokp_d2vzw-userdebug
 add_lunch_combo aokp_hercules-userdebug
 add_lunch_combo aokp_i9100-userdebug
 add_lunch_combo aokp_i9100g-userdebug
+add_lunch_combo aokp_primoc-userdebug
 # add_lunch_combo aokp_toroplus-userdebug
 add_lunch_combo aokp_t0lte-userdebug
